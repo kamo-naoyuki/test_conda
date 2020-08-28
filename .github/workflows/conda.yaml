@@ -23,8 +23,8 @@ jobs:
       - run: |
           conda install -y sox -c conda-forge
           sox -n sin440.wav synth 0.5 sin 440 gain -10
-          sox sin440.wav sin440.flac
           sox sin440.wav sin440.mp3
+          sox sin440.wav sin440.flac
 
 
 
